@@ -22,6 +22,7 @@ body {
     font-size: 30px;
     text-align: end;
     padding: 5px;
+    overflow: hidden;
 }
 
 .buttons {
@@ -74,7 +75,7 @@ button:active {
 }
 #x{
     background-color: grey;
-    font-size: 20px;
+    font-size: 10px;
 }
 #x:hover {
     background-color: linen;
