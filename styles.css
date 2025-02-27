@@ -22,16 +22,30 @@ body {
 
 .buttons {
     width: 240px;
-    
+    display: flex;
+    flex-wrap: wrap;
 }
 
 button {
-    background-color: orangered;
+    background-color: burlywood;
     border: none;
-    color: white;
+    color: black;
     font-size: 40px;
     height: 50px;
     width: 50px;
     border-radius: 35px;
     margin: 5px;
+}
+button:hover {
+    background-color: rgb(111, 110, 100);
+}
+button:active {
+    background-color: rgb(232, 232, 232);
+}
+
+#equals {
+    background-color: limegreen;
+}
+#equals:hover {
+    background-color: darkgreen;
 }
