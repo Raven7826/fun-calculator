@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: cornflowerblue;
+}
+
+.calculator {
+    background-color: darkslategrey;
+    border-radius: 15px;
+    padding: 20px;
+
+}
+.screen {
+    width: 225px; 
+    background-color: lavenderblush;
+    font-size: 30px;
+    text-align: end;
+    padding: 5px;
+}
+
+.buttons {
+    width: 240px;
+    
+}
+
+button {
+    background-color: orangered;
+    border: none;
+    color: white;
+    font-size: 40px;
+    height: 50px;
+    width: 50px;
+    border-radius: 35px;
+    margin: 5px;
+}
